@@ -1,9 +1,11 @@
 <template>
-  <h4>{{ msg }}</h4>
-  <div class="card">
-    <div><button type="button" @click="addCount" class="bg-cyan-300">add count</button></div>
-    <div>count is {{ count }}</div>
-    <div>doubleCount is {{ doubleCount }}</div>
+  <div class="count">
+    <h4>{{ msg }}</h4>
+    <div class="card">
+      <div><button type="button" @click="addCount" class="bg-cyan-300">add count</button></div>
+      <div>count is {{ count }}</div>
+      <div>doubleCount is {{ doubleCount }}</div>
+    </div>
   </div>
 </template>
 
@@ -21,5 +23,7 @@ const addCount = () => {
 </script>
 
 <style scoped>
-/*  */
+.count {
+  text-align: right;
+}
 </style>
