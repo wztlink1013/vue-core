@@ -1,6 +1,6 @@
 {
-  "name": "vue-core",
-  "private": true,
+  "name": "@wztlink1013/vue-core",
+  "private": false,
   "version": "3.5.13",
   "packageManager": "pnpm@10.6.3",
   "type": "module",
